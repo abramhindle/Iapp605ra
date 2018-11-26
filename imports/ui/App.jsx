@@ -8,6 +8,7 @@ import Task from './Task.js';
 import IndividualFile from './FileIndividualFile.js';
 import AccountsUIWrapper from './AccountsUIWrapper.js';
 import FileUpload from './FileUpload.js';
+import UserList from './UserList.js';
 
 // App component - represents the whole app
 class App extends Component {
@@ -94,6 +95,9 @@ class App extends Component {
 
         <div>
         <FileUpload />
+        </div>
+        <div>
+        <UserList />
         </div>
       </div>
     );
