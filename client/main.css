@@ -123,3 +123,13 @@ header .hide-completed {
     padding-bottom: 5px;
   }
 }
+
+.filethumb {
+  width: 3em;   
+  height: 3em;   
+}
+.taskthumb {
+  max-width: 100%;
+  max-height: 80%;
+}
+
